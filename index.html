@@ -32,7 +32,7 @@
   <header id="banner" class="body">
     <h1>
       <img src="/theme/img/header.png"/>
-      <a href="/">Hadrien Mary       <strong class="hidden-xs">PhD student in Biology and Bioinformatic</strong></a>
+      <a href="/">Hadrien Mary       <strong class="hidden-xs">PhD student in Biology</strong></a>
     </h1>
 
     <nav class="navbar navbar-default" role="navigation">
@@ -68,6 +68,9 @@
               <li>
                 <a href="/contact">Contact</a>
               </li>
+              <li>
+                <a href="/credits">Credits</a>
+              </li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -79,27 +82,46 @@
   <section id="content">
     <h1 class="entry-title">Research</h1>
     
-    <p>Mitosis is a highly preserved process in all eukaryotic cells. A crucial step during chromosomes
+    <figure class="float right">
+  <img src="images/mitosis.png" alt="Different phase of mitosis" width="40%" >
+  <figcaption>Fig 1. Different phase of mitosis (Cheeseman et al., 2008).</figcaption>
+</figure>
+
+<p>Mitosis is a highly preserved process in all eukaryotic cells. A crucial step during chromosomes
 segregation in the transition between metaphase to anaphase, where sister chromosomes segregate and
 migrate to their respective cell poles. The actors of the mitotic machinary are well known: it
 includes microtubules (Mts), kinetochores (Kts) – which are assemblies of multiples proteins
 connecting mechanically Mts to the chromosomes – and their respective regulators. Neverthless, the
 way these proteins interact in space and time to produce a proper attachment and pulling on
 chromosomes is still poorly understood.</p>
+<figure>
+  <img src="images/spindle_overview.png" alt="An overview of the mitotic spindle in fission yeast." width="50%" >
+  <figcaption>Fig 2. An overview of the mitotic spindle in fission yeast.</figcaption>
+</figure>
+
 <p><em>Schizosaccharomyces pombe</em> (<em>S. pombe</em>) is used as a model system to understand the dynamics of the
 mitotic spindle. With only three chromosomes and four Mts connected to each Kt, S. pombe is the
 perfect candidate to give quantitative insights into chromosome movements during mitosis. During
 metaphase, the chromosomes of <em>S. pombe</em> – like in most of the eukaryotic species – exhibit
 oscillations along the mitotic spindle, before to align at the cell center prior to anaphase.</p>
+<figure>
+  <img src="images/actors.png" alt="Some actors involved in mitosis in fission yeast." width="60%" >
+  <figcaption>Fig 3. Some actors involved in mitosis in fission yeast.</figcaption>
+</figure>
+
 <p>In order to define and characterize these events, we use a robust analysis framework - flow from
 video microscopy acquisition to chromosome trajectory analysis. We are implementing tools such as
 peak detection algorithm and robust single particle tracker. Most of the features of these
 trajectories found in vivo has been reproduced <em>in silico</em> with a simple mechanical model of the
 mitotic spindle (Gay et al., 2012).</p>
+<figure>
+  <img src="images/wt.png" alt="In vivo and in silico analysis of chromosome trajectories." width="90%" >
+  <figcaption>Fig 4. <em>In vivo</em> and <em>in silico</em> analysis of chromosome trajectories.</figcaption>
+</figure>
+
 <h2>References</h2>
-<p>Gay, G., T. Courtheoux, C. Reyes, S. Tournier, and Y. Gachet. 2012. A stochastic model of
-kinetochore-microtubule attachment accurately describes fission yeast chromosome segregation. J.
-Cell Biol. 196:757–74. doi:10.1083/jcb.201107124.</p>
+<p>Gay, G., T. Courtheoux, C. Reyes, S. Tournier, and Y. Gachet. 2012. A stochastic model of kinetochore-microtubule attachment accurately describes fission yeast chromosome segregation. J. Cell Biol.</p>
+<p>Cheeseman, I. M. and Desai, A. (2008). Molecular architecture of the kinetochore-microtubule interface. Nat. Rev. Mol. Cell Biol. 9, 33–46.</p>
   </section>
   </div>
 
@@ -118,9 +140,8 @@ Cell Biol. 196:757–74. doi:10.1083/jcb.201107124.</p>
           <li><a href="mailto:hadrien.mary AT univ-tlse3 DOT fr" target="_blank">Mail: you can use this mail</a></li>
           <li><a href="mailto:hadrien.mary AT gmail DOT com" target="_blank">GMail: or this one</a></li>
           <li><a href="https://github.com/hadim" target="_blank">GitHub: what I code</a></li>
-          <li><a href="http://fr.linkedin.com/in/hadimary" target="_blank">Linkedin: professional profile</a></li>
-          <li><a href="https://plus.google.com/100297872480160783190/" target="_blank">Google+: personal profile (not so much filled)</a></li>
-          <li><a href="http://scholar.google.com/citations?user=gGjpl6kAAAAJ" target="_blank">Google Scholar: academic publications (nothing yet!)</a></li>
+          <li><a href="http://scholar.google.com/citations?user=gGjpl6kAAAAJ" target="_blank">Google Scholar: academic publications</a></li>
+          <li><a href="https://twitter.com/hadim_" target="_blank">Twitter</a></li>
       </ul>
     </div><!-- /.social -->
   </section><!-- /#extras -->
@@ -130,7 +151,7 @@ Cell Biol. 196:757–74. doi:10.1083/jcb.201107124.</p>
       Powered by <a href="http://getpelican.com/">Pelican</a> -
       Hadrien Mary -
       2014 - <a href="/credits">Credits</a> -
-      Last updated: 10/03/2015
+      Last updated: 22/04/2015
     </p><!-- /#about -->
   </footer><!-- /#contentinfo -->
 
