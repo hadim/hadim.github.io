@@ -46,7 +46,7 @@ h1 a:hover {
 /* Paragraphs */
 p {
     margin-bottom: 1.143em;
-    text-indent: 1em;
+    text-indent: 0.6em;
 }
 
 p.contact{
@@ -202,12 +202,29 @@ aside, nav, article, figure {
 *****************/
 #content-container {
     background: #fff;
-
     border-radius: 6px;
 }
 
 #content {
     padding: 1em 1.6em;
+}
+
+#content p {
+    margin-right: 1.6em;
+    margin-left: 1.6em;
+    font-size: 1.3em;
+}
+
+#content li {
+    font-size: 1.3em;
+}
+
+#content h1{
+    margin-bottom: 0.6em;
+}
+
+#content h2{
+    margin-bottom: 1em;
 }
 
 /*
@@ -385,5 +402,5 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 
 #content figure figcaption{
     color: #666;
-    font-size: 0.9em;
+    font-size: 1.1em;
 }

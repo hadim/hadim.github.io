@@ -54,16 +54,16 @@
                 <a href="/">Research</a>
               </li>
               <li>
-                <a href="/softwares">Softwares</a>
-              </li>
-              <li>
                 <a href="/visualization">Visualization</a>
-              </li>
-              <li>
-                <a href="/cv">CV</a>
               </li>
               <li class="active">
                 <a href="/previous-work">Previous Work</a>
+              </li>
+              <li>
+                <a href="/softwares">Softwares</a>
+              </li>
+              <li>
+                <a href="/cv">CV</a>
               </li>
               <li>
                 <a href="/contact">Contact</a>
@@ -82,13 +82,38 @@
   <section id="content">
     <h1 class="entry-title">Previous work</h1>
     
-    <p>I made my internship in 2011 at the <a href="http://www.imb.uq.edu.au" target="_blank">IMB</a> at the University of Queensland in Australia in the <a href="http://www.imb.uq.edu.au/modelling-visualisation-and-classification-of-bio-imaging-nick-hamilton" target="_blank">N. Hamilton group</a>.</p>
-<p>I worked on two different subjects:</p>
-<ul>
-<li>High-throughput image analysis</li>
-<li>Branching morphogenesis in mouse kidney development</li>
-</ul>
-<p>If you want to know more about, you can grab my internship report <a href="/pdfs/internship_report.pdf">here</a>.</p>
+    <h2>2011 - Internship at the Institute for Molecular Bioscience</h2>
+<p>I made my internship in 2011 at the <a href="http://www.imb.uq.edu.au" target="_blank">Institute for Molecular Bioscience</a> at the University of Queensland in Australia in the <a href="http://www.imb.uq.edu.au/nick-hamilton" target="_blank">N. Hamilton group</a> (IMB). I was involved in two different projects.</p>
+<p>(My internship report is <a href="/pdfs/internship_report.pdf">here</a>.)</p>
+<h3>High-throughput image analysis</h3>
+<p>I analyzed A431 cells infected by <em>Salmonella</em> and treated with various shRNA. The first step was to detect nucleus (in blue), cytoplasm (in green) and <em>Salmonella</em> (in red) in acquired images.</p>
+<figure>
+  <img src="/images/imb/17.png" alt="Automatic objects detection for nucleus, cytoplasm and Salmonella" width="50%" >
+  <figcaption>Fig 1. Automatic objects detection for nucleus, cytoplasm and Salmonella.</figcaption>
+</figure>
+
+<p>The second step was to extract features for each images and conditions. Then I created a visualization (inspired from Collinet et al., 2010) to quickly detect main differences between different conditions.</p>
+<figure>
+  <img src="/images/imb/profile2.png" alt="Automatic features profile" width="80%" >
+  <figcaption>Fig 2. Automatic features profile. The x-axis shows features extracted from images. The y-axis indicates the normalized value for the corresponding feature. On the right panel, conditions can be selected and/or highlighted.</figcaption>
+</figure>
+
+<h3>Branching morphogenesis in mouse kidney development</h3>
+<p>When I started my work the project was at the beginning and I mainly created various tools to analyze young mouse kidney. Collaborators from Melbourne developed a powerful technics to images mouse kidney in 3D.</p>
+<figure>
+  <img src="/images/imb/step1.png" alt="3D mouse kidney reconstruction" width="80%" >
+  <figcaption>Fig 3. 3D mouse kidney reconstruction.</figcaption>
+</figure>
+
+<figure>
+  <img src="/images/imb/real.png" alt="Mouse kidney reconstructed as a graph." width="60%" >
+  <figcaption>Fig 4. Mouse kidney reconstructed as a graph.</figcaption>
+</figure>
+
+<p>Since the project starts in 2011, the team has published various nice papers (Short et al., 2014).</p>
+<h3>References</h3>
+<p>Collinet, C., Stöter, M., Bradshaw, C. R., Samusik, N., Rink, J. C., Kenski, D., Habermann, B., Buchholz, F., Henschel, R., Mueller, M. S., et al. (2010). Systems survey of endocytosis by multiparametric image analysis. Nature 464, 243–249.</p>
+<p>Short, K. M., Combes, A. N., Lefevre, J., Ju, A. L., Georgas, K. M., Lamberton, T., Cairncross, O., Rumballe, B. A., McMahon, A. P., Hamilton, N. A., et al. (2014). Global quantification of tissue dynamics in the developing mouse kidney. Dev. Cell 29, 188–202.</p>
   </section>
   </div>
 
@@ -118,7 +143,7 @@
       Powered by <a href="http://getpelican.com/">Pelican</a> -
       Hadrien Mary -
       2014 - <a href="/credits">Credits</a> -
-      Last updated: 22/04/2015
+      Last updated: 13/05/2015
     </p><!-- /#about -->
   </footer><!-- /#contentinfo -->
 
