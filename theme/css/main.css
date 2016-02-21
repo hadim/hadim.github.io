@@ -91,6 +91,11 @@ blockquote {
     margin: 20px;
     font-style: italic;
 }
+
+blockquote p{
+    margin-bottom: 0.4em !important;
+}
+
 cite {}
 
 q {}
@@ -212,11 +217,7 @@ aside, nav, article, figure {
 #content p {
     margin-right: 1.6em;
     margin-left: 1.6em;
-    font-size: 1.3em;
-}
-
-#content li {
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 
 #content h1{
@@ -224,7 +225,12 @@ aside, nav, article, figure {
 }
 
 #content h2{
-    margin-bottom: 1em;
+    margin-bottom: 0.8em;
+    font-size: 2.2em;
+}
+
+#content h3{
+    font-size: 1.8em;
 }
 
 /*
@@ -269,7 +275,8 @@ aside, nav, article, figure {
 #extras a[href*='github.com'] {background-image: url('../img/icons/github.png');}
 #extras a[href*='scholar.google.com'] {background-image: url('../img/icons/scholar.png');}
 #extras a[href*='damcb.com'] {background-image: url('../img/icons/damcb.png');}
-#extras a[href*='www-lbcmcp.ups-tlse.fr'] {background-image: url('../img/icons/lbcmcp.png');}
+#extras a[href*='cbi-toulouse.fr/eng/equipe-tournier-gachet'] {background-image: url('../img/icons/lbcmcp.png');}
+#extras a[href*='brouhardlab.mcgill.ca'] {background-image: url('../img/icons/brouhard.png');}
 
 /*
     About
@@ -393,6 +400,7 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 }
 
 #content figure img,
+#content figure video,
 #content figure figcaption{
     display: block;
     margin-left: auto;
