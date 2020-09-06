@@ -1,0 +1,42 @@
+baseURL = "https://hadim.fr"
+languageCode = "en-us"
+title = "Hadrien Mary"
+
+theme = "hugo-sustain"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  avatar = "profile.png"
+  author = "Hadrien Mary"
+  description = "Personal website"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params.social]
+  Github        = "hadim"
+  Email         = "hadrien.mary@gmail.com"
+  Twitter       = "HadiM_"
+  LinkedIn      = "hmary"
+  Stackoverflow = "hadim"
+  Medium        = "hadim"
+
+## Main Menu
+[[menu.main]]
+  name = "blog"
+  weight = 100
+  identifier = "blog"
+  url = "/blog/"
+[[menu.main]]
+  name = "projects"
+  identifier = "projects"
+  weight = 200
+  url = "/projects/"
+[[menu.main]]
+  name = "resume"
+  identifier = "resume"
+  weight = 300
+  url = "/resume/"
