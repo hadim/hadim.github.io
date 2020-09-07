@@ -2,70 +2,26 @@
 title = "About"
 +++
 
-IN CONSTRUCTION
-
-<!-- ## About Me
+## About Me
 
 {{< figure class="avatar" src="/avatar.jpg" >}}
 
-I am a biophysicists. My original training
+I am a biophysicist—my initial training is in biology, biochemistry, and bioinformatics. After a [Ph.D. in cell biology](./thesis.pdf) in Toulouse (France), I was a postdoc in [Gary Brouhard laboratory](https://brouhardlab.mcgill.ca/) for four years at the University of McGill in Montreal (Canada).
 
-## Research Interest
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum ac erat aliquam dapibus. Vestibulum vehicula placerat ex, a consectetur odio pharetra quis. Mauris id urna ante. Fusce pharetra diam ac nisi aliquet, vel egestas ex iaculis. Pellentesque laoreet cursus tellus sed pellentesque. Praesent a rhoncus elit. Nunc ipsum nisl, consequat sit amet pretium quis, gravida id ipsum.
-
-## Publications
-
-In chronological order:
-1. F.Bar, J.Doe: Effects of having a placeholder of a name
-2. S.Holmes, J.Watson: Consequences of living with a sociopath in London
-
-## Typography
-
-This is a [link](http://google.com). Something *italics* and something **bold**.
-
-Here is a table
-
-Year | Award | Category
------|-------|--------
-2014 | Emmy  | Won Outstanding Lead Actor in a miniseries or a movie
-2015 | BAFTA | Nominated for Best Leading Actor for Sherlock
-2014 | Satellite | Won Best Actor miniseries or television film
-
-Here is a horizontal rule
+In 2020, I join [InvivoAI](https://www.invivoai.com/) to work on computational infrastructure and perform research on small molecules and therapeutic targets. At InvivoAI, I apply cutting edge in silico data-based methods to predict molecule properties, explore the chemical space, and design new and synthesizable molecules.
 
 ---
 
-Here is a blockquote
+## Open Source
 
-> To a great mind, nothing is little
-
-## References
-
-* Foo Bar: Head of Department, Placeholder Names, Lorem
-* John Doe: Associate Professor, Department of Computer Science, Ipsum
-
-+++
-title = "Contact"
-+++
-
-* Email: [foo@xyz.com](mailto:foo@xyz.com)
-* Phone: [+91-123123](tel:+91-123123)
+On my spare time but also professionlay I use, contribute and develop to open source softwares. You can check my [resume](./resume.pdf) for a summary of my previous works and also my [Github profile](https://github.com/hadim).
 
 ---
 
-## Mailing Address
+## Social and Contact
 
-> 221B, Baker Street
->
-> London
->
-> United Kingdom
-
----
-
-## Social
-
-1. [Facebook](#)
-2. [Twitter](#)
-3. [Google+](#) -->
+- Github: [@hadim](https://github.com/hadim)
+- Google Scholar: [Hadrien Mary](https://scholar.google.com/citations?user=gGjpl6kAAAAJ&hl=en)
+- Email: [hadrien.mary@gmail.com](mailto:hadrien.mary@gmail.com)
+- Email: [hadrien@invivoai.com](mailto:hadrien@invivoai.com)
+- Twitter: [@HadiM_](https://twitter.com/HadiM_)

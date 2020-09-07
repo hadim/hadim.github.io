@@ -29,8 +29,8 @@ enableEmoji = true
     url = "/resume.pdf"
     weight = 2
   [[menu.main]]
-    name = "Contact"
-    url = "/contact"
+    name = "Credits"
+    url = "/credits"
     weight = 3
 
 [markup.goldmark.renderer]
